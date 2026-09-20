@@ -23,3 +23,5 @@ vim.keymap.set('n', '<leader>sg', function() require('fff').live_grep() end, { d
 
 vim.pack.add({"https://github.com/folke/which-key.nvim"})
 require("which-key").setup()
+
+
