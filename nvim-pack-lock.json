@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "fff": {
+      "rev": "6b46693c8c6442877a3ee078955d0c36eaff4625",
+      "src": "https://github.com/dmtrKovalenko/fff"
+    },
     "tokyonight.nvim": {
       "rev": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
       "src": "https://github.com/folke/tokyonight.nvim"
