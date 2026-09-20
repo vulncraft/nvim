@@ -13,6 +13,8 @@ vim.api.nvim_create_autocmd("LspAttach", {
             })
         end
         map("grd", vim.lsp.buf.definition, "Go to definition")
+        map("gra", require("fzf-lua").lsp_code_actions, "Code actions")
+        map("grr", require("fzf-lua").lsp_references, "search references")
         map("K", vim.lsp.buf.hover, "Hover info")
 
         map("grF", vim.lsp.buf.format, "LSP format")
